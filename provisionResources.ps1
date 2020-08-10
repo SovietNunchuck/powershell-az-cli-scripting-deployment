@@ -18,6 +18,7 @@ az configure --default group=$rgName
 
 # Provision VM
 $vmData = $(az vm create -n $vmName --size $vmSize --image $vmImage --admin-username $vmAdminUsername --admin-password $(Read-Host "Authenticate to Azure (student)" -AsSecureString) --authentication-type password --assign-identity)
+az configure --default vm=$vmName
 
 # Capture the VM systemAssignedIdentity and IP Address
 $vmId = $(az vm identity show --name $vmName --query "principalId").Trim('"')
