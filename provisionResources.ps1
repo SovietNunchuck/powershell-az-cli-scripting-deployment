@@ -1,4 +1,4 @@
-# TODO: set variables
+# Setting variables
 $studentName = "mitch"
 $rgName = "$studentName-lc0820-ps-rg"
 $vmName = "$studentName-lc0820-ps-vm"

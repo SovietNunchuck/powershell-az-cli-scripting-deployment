@@ -6,11 +6,11 @@ set -ex
 
 # for cloning in delivery
 
-# TODO: enter your GitHub user name
-github_username=
+# Enter your GitHub user name
+github_username="SovietNunchuck"
 
-# TODO: enter the name of your project branch that has your updated code
-solution_branch=
+# Enter the name of your project branch that has your updated code
+solution_branch="3-aadb2c"
 
 # api
 api_service_user=api-user
